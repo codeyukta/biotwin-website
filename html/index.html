@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BioTwin — Your AI-powered health companion. Smart wearable & mobile app for Android and iOS." />
+  <title>BioTwin — Your Health Digital Twin</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-brand">
+      <div class="nav-brand-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+        </svg>
+      </div>
+      BioTwin
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#app">App</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="#pricing" class="btn btn-outline">Sign In</a>
+      <a href="#pricing" class="btn btn-primary">Get Started</a>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" style="
+    display:none; position:fixed; top:68px; left:0; right:0; bottom:0;
+    background:rgba(26,26,26,0.98); z-index:999; padding:2rem;
+    flex-direction:column; gap:1.5rem;
+  ">
+    <a href="#features" style="color:#fff;font-family:'Exo 2',sans-serif;font-size:1.2rem;font-weight:600;">Features</a>
+    <a href="#how-it-works" style="color:#fff;font-family:'Exo 2',sans-serif;font-size:1.2rem;font-weight:600;">How It Works</a>
+    <a href="#app" style="color:#fff;font-family:'Exo 2',sans-serif;font-size:1.2rem;font-weight:600;">App</a>
+    <a href="#pricing" style="color:#fff;font-family:'Exo 2',sans-serif;font-size:1.2rem;font-weight:600;">Pricing</a>
+    <a href="#testimonials" style="color:#fff;font-family:'Exo 2',sans-serif;font-size:1.2rem;font-weight:600;">Reviews</a>
+    <a href="#pricing" class="btn btn-primary" style="width:fit-content;">Get Started Free</a>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="container">
+      <div class="hero-content">
+        <!-- Left -->
+        <div class="hero-left fade-in">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Now available on iOS &amp; Android
+          </div>
+          <h1 class="hero-title">
+            Your Personal<br />
+            <span class="accent">Health Digital</span><br />
+            Twin
+          </h1>
+          <p class="hero-desc">
+            BioTwin creates a living model of your body — tracking vitals, predicting risks, and guiding you to your healthiest self through AI-powered wearables and a seamless mobile app.
+          </p>
+          <div class="hero-actions">
+            <a href="#app" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.4c1.39.07 2.35.74 3.15.8 1.2-.24 2.35-.93 3.63-.84 1.54.12 2.7.72 3.46 1.83-3.17 1.93-2.41 5.9.52 7.08-.61 1.67-1.42 3.34-2.76 4.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+              Download for iOS
+            </a>
+            <a href="#app" class="btn btn-outline">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.79c.36.2.79.2 1.16-.01l11.65-6.56-2.5-2.51-10.31 9.08zm16.19-9.14L5.83 7.52 3.19.24c-.04-.12-.1-.22-.18-.3L14.5 12 19.37 14.65zM20.7 10.3l-3.22-1.82L14.5 12l2.98 3.52 3.25-1.82c.92-.52.92-1.86-.03-2.4zM3.18.24C2.8.04 2.38.04 2.02.24c-.36.2-.57.58-.57.98v21.56c0 .4.21.78.57.98.18.1.38.15.58.15.18 0 .37-.05.55-.14l10.3-9.08-10.27-14.45z"/></svg>
+              Get on Android
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-num">2M<span>+</span></div>
+              <div class="hero-stat-lbl">Active Users</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">4.9<span>★</span></div>
+              <div class="hero-stat-lbl">App Store Rating</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">98<span>%</span></div>
+              <div class="hero-stat-lbl">Accuracy Score</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right — Phone Mockup -->
+        <div class="hero-visual fade-in">
+          <div class="phone-glow"></div>
+          <div class="phone-mockup">
+            <div class="phone-screen">
+              <div class="phone-notch"></div>
+              <div class="phone-header">
+                <div class="phone-header-title">BioTwin Dashboard</div>
+                <div class="phone-header-icon">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="#76B900"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+                </div>
+              </div>
+
+              <!-- Heart Rate Widget -->
+              <div class="heart-rate-widget">
+                <div class="hr-label">Heart Rate</div>
+                <div style="display:flex;align-items:baseline;gap:6px;">
+                  <div class="hr-value">74</div>
+                  <div class="hr-unit">BPM</div>
+                </div>
+                <div class="hr-wave">
+                  <svg viewBox="0 0 110 36" fill="none">
+                    <path class="hr-path" d="M0,18 L10,18 L15,18 L18,5 L21,30 L24,5 L27,18 L35,18 L45,18 L48,8 L51,28 L54,8 L57,18 L70,18 L80,18 L83,6 L86,30 L89,6 L92,18 L110,18"
+                      stroke="#76B900" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                      style="transition: d 0.4s ease;"/>
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Metrics Row -->
+              <div class="metric-row">
+                <div class="metric-card">
+                  <div class="metric-icon">🩸</div>
+                  <div class="metric-val">98<span style="font-size:0.6rem;color:#aaa">%</span></div>
+                  <div class="metric-lbl">SpO2</div>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-icon">🔥</div>
+                  <div class="metric-val">1,840</div>
+                  <div class="metric-lbl">Calories</div>
+                </div>
+              </div>
+              <div class="metric-row">
+                <div class="metric-card">
+                  <div class="metric-icon">👣</div>
+                  <div class="metric-val">8,421</div>
+                  <div class="metric-lbl">Steps</div>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-icon">😴</div>
+                  <div class="metric-val">7.2<span style="font-size:0.6rem;color:#aaa">h</span></div>
+                  <div class="metric-lbl">Sleep</div>
+                </div>
+              </div>
+
+              <!-- Activity -->
+              <div class="activity-bar">
+                <div class="activity-label">Daily Goal — 72% Complete</div>
+                <div class="bar-track"><div class="bar-fill"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRUSTED ========== -->
+  <div class="trusted">
+    <div class="container">
+      <div class="trusted-inner">
+        <span class="trusted-label">Trusted by teams at</span>
+        <div class="trusted-logos">
+          <span class="trusted-logo">MAYO CLINIC</span>
+          <span class="trusted-logo">MEDTRONIC</span>
+          <span class="trusted-logo">APPLE HEALTH</span>
+          <span class="trusted-logo">SAMSUNG</span>
+          <span class="trusted-logo">WHO</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="fade-in" style="max-width:600px;">
+        <span class="section-label">Core Features</span>
+        <h2>Everything Your Body Needs to Know</h2>
+        <div class="divider"></div>
+        <p>BioTwin combines advanced wearable sensors with machine learning to give you clinical-grade health insights, 24/7.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">❤️</div>
+          <h3>Continuous Heart Monitoring</h3>
+          <p>ECG-grade heart rate tracking with arrhythmia detection, HRV analysis, and real-time alerts for irregular patterns.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🧬</div>
+          <h3>AI Health Predictions</h3>
+          <p>Your digital twin learns your patterns and proactively flags health risks up to 72 hours before they become critical.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🩺</div>
+          <h3>Blood Oxygen &amp; Glucose</h3>
+          <p>Non-invasive SpO2 monitoring and predictive glucose tracking through advanced photoplethysmography sensors.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">😴</div>
+          <h3>Sleep Intelligence</h3>
+          <p>Full sleep architecture analysis — REM, deep, light stages — with personalized coaching to optimize recovery.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🏃</div>
+          <h3>Adaptive Fitness Coach</h3>
+          <p>AI-generated workout plans that evolve with your fitness level, recovery status, and health goals.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🔒</div>
+          <h3>HIPAA-Grade Security</h3>
+          <p>End-to-end encryption, on-device processing, and optional doctor sharing with full data sovereignty in your hands.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="section howitworks" id="how-it-works">
+    <div class="container">
+      <div class="fade-in" style="max-width:600px;margin:0 auto;text-align:center;">
+        <span class="section-label">How It Works</span>
+        <h2>From Wrist to Insight in Seconds</h2>
+        <div class="divider" style="margin:1rem auto 0;"></div>
+      </div>
+      <div class="steps">
+        <div class="step fade-in">
+          <div class="step-num">01</div>
+          <h3>Wear &amp; Pair</h3>
+          <p>Strap on your BioTwin device and pair with the iOS or Android app in under 60 seconds. No technical setup needed.</p>
+        </div>
+        <div class="step fade-in">
+          <div class="step-num">02</div>
+          <h3>Continuous Sensing</h3>
+          <p>The device captures 50+ biometric signals every second — silently, comfortably, all day and through the night.</p>
+        </div>
+        <div class="step fade-in">
+          <div class="step-num">03</div>
+          <h3>AI Builds Your Twin</h3>
+          <p>Our algorithms fuse your data into a personalized health model that becomes smarter the longer you wear it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== APP SECTION ========== -->
+  <section class="section app-section" id="app">
+    <div class="container">
+      <div class="app-content">
+        <div class="fade-in">
+          <span class="section-label">The App</span>
+          <h2>Your Health Hub, Available Everywhere</h2>
+          <div class="divider"></div>
+          <p>The BioTwin app gives you a stunning real-time view of your body — with actionable insights, not just data dumps.</p>
+          <ul class="app-feature-list">
+            <li class="app-feature-item">
+              <div class="app-feature-check">
+                <svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#76B900" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p>Live dashboard with health score, trends, and anomaly highlights</p>
+            </li>
+            <li class="app-feature-item">
+              <div class="app-feature-check">
+                <svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#76B900" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p>Secure one-tap sharing with your physician or health coach</p>
+            </li>
+            <li class="app-feature-item">
+              <div class="app-feature-check">
+                <svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#76B900" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p>Smart notifications — only what matters, when it matters</p>
+            </li>
+            <li class="app-feature-item">
+              <div class="app-feature-check">
+                <svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#76B900" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p>Apple Health, Google Fit, and EHR integration built-in</p>
+            </li>
+          </ul>
+          <div class="download-btns">
+            <div class="store-btn">
+              <div class="store-btn-icon">🍎</div>
+              <div class="store-btn-txt">
+                <span class="small">Download on the</span>
+                <span class="big">App Store</span>
+              </div>
+            </div>
+            <div class="store-btn">
+              <div class="store-btn-icon">▶</div>
+              <div class="store-btn-txt">
+                <span class="small">Get it on</span>
+                <span class="big">Google Play</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- App Phone Mockups -->
+        <div class="app-phones fade-in">
+          <!-- Second Phone -->
+          <div class="phone-mockup sm">
+            <div class="phone-screen" style="padding:16px 12px;">
+              <div class="phone-notch" style="height:16px;"></div>
+              <div style="margin-bottom:10px;">
+                <div style="font-family:'Exo 2',sans-serif;font-size:0.75rem;font-weight:700;color:#fff;margin-bottom:8px;">Sleep Analysis</div>
+                <div style="background:#2E2E2E;border-radius:8px;padding:10px;">
+                  <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:4px;height:50px;">
+                    <div style="flex:1;background:#3A3A3A;border-radius:3px;height:30%;"></div>
+                    <div style="flex:1;background:#3A3A3A;border-radius:3px;height:55%;"></div>
+                    <div style="flex:1;background:#76B900;border-radius:3px;height:80%;"></div>
+                    <div style="flex:1;background:#76B900;border-radius:3px;height:70%;"></div>
+                    <div style="flex:1;background:#4E7A00;border-radius:3px;height:45%;"></div>
+                    <div style="flex:1;background:#3A3A3A;border-radius:3px;height:60%;"></div>
+                    <div style="flex:1;background:#3A3A3A;border-radius:3px;height:40%;"></div>
+                  </div>
+                  <div style="font-family:'Exo 2',sans-serif;font-size:0.9rem;font-weight:800;color:#76B900;margin-top:8px;">7.4h <span style="font-size:0.65rem;color:#aaa;font-weight:400;">last night</span></div>
+                </div>
+              </div>
+              <div style="background:#2E2E2E;border-radius:8px;padding:10px;">
+                <div style="font-size:0.65rem;color:#aaa;margin-bottom:6px;">Weekly Health Score</div>
+                <div style="font-family:'Exo 2',sans-serif;font-size:2rem;font-weight:900;color:#76B900;line-height:1;">87</div>
+                <div style="font-size:0.65rem;color:#8DD400;">↑ +4 from last week</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Phone -->
+          <div class="phone-mockup">
+            <div class="phone-screen">
+              <div class="phone-notch"></div>
+              <div style="text-align:center;margin-bottom:12px;">
+                <div style="font-size:0.65rem;color:#aaa;text-transform:uppercase;letter-spacing:0.1em;">Stress Level</div>
+                <div style="position:relative;width:100px;height:100px;margin:8px auto;">
+                  <svg viewBox="0 0 100 100" style="width:100%;height:100%;transform:rotate(-90deg);">
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#2E2E2E" stroke-width="8"/>
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#76B900" stroke-width="8"
+                      stroke-dasharray="251.2" stroke-dashoffset="75" stroke-linecap="round"/>
+                  </svg>
+                  <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;">
+                    <span style="font-family:'Exo 2',sans-serif;font-size:1.4rem;font-weight:800;color:#fff;">70%</span>
+                    <span style="font-size:0.6rem;color:#76B900;">Low</span>
+                  </div>
+                </div>
+              </div>
+              <div class="metric-row">
+                <div class="metric-card">
+                  <div class="metric-icon">💧</div>
+                  <div class="metric-val">2.1<span style="font-size:0.6rem;color:#aaa">L</span></div>
+                  <div class="metric-lbl">Hydration</div>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-icon">🌡️</div>
+                  <div class="metric-val">36.6</div>
+                  <div class="metric-lbl">Temp °C</div>
+                </div>
+              </div>
+              <div class="activity-bar" style="margin-top:0;">
+                <div class="activity-label">Recovery Score — Excellent</div>
+                <div class="bar-track"><div class="bar-fill" style="width:88%;background:linear-gradient(90deg,#4E7A00,#8DD400);"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats-section section-sm">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="2" data-suffix="M+">0</div>
+          <div class="stat-label">Active Users Worldwide</div>
+        </div>
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="50" data-suffix="+">0</div>
+          <div class="stat-label">Biometrics Tracked</div>
+        </div>
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="98.4" data-suffix="%">0</div>
+          <div class="stat-label">Prediction Accuracy</div>
+        </div>
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="4.9" data-suffix="★">0</div>
+          <div class="stat-label">Average App Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="fade-in" style="max-width:600px;">
+        <span class="section-label">Testimonials</span>
+        <h2>Loved by Millions of Health-Conscious People</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-in">
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-text">"BioTwin caught an irregular heart rhythm I didn't know I had. My cardiologist confirmed atrial fibrillation within a week. This device genuinely saved my life."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div>
+              <div class="author-name">Michael R.</div>
+              <div class="author-role">Software Engineer, 42</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-text">"As a marathon runner, the recovery insights are unmatched. I've cut injury downtime by 60% this season just by listening to the AI recommendations."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SA</div>
+            <div>
+              <div class="author-name">Sarah A.</div>
+              <div class="author-role">Marathon Runner, 29</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-text">"My patients are coming in better prepared than ever. The physician dashboard and shareable reports have transformed how I do preventive care."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DK</div>
+            <div>
+              <div class="author-name">Dr. K. Patel</div>
+              <div class="author-role">Internal Medicine, Houston</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <div class="fade-in" style="max-width:600px;text-align:center;margin:0 auto;">
+        <span class="section-label">Pricing</span>
+        <h2>Invest in Your Health</h2>
+        <div class="divider" style="margin:1rem auto;"></div>
+        <p>Start free, scale as you need. No hidden fees.</p>
+      </div>
+      <div class="pricing-grid">
+
+        <div class="pricing-card fade-in">
+          <div class="pricing-plan">Starter</div>
+          <div class="pricing-price"><sup>$</sup>0<span class="period"> / mo</span></div>
+          <div class="pricing-desc">Perfect for getting started with health tracking.</div>
+          <ul class="pricing-features">
+            <li class="pricing-feature"><span class="check">✓</span> Heart rate monitoring</li>
+            <li class="pricing-feature"><span class="check">✓</span> Step &amp; calorie tracking</li>
+            <li class="pricing-feature"><span class="check">✓</span> Basic sleep analysis</li>
+            <li class="pricing-feature"><span class="check">✓</span> 7-day data history</li>
+            <li class="pricing-feature"><span class="cross">✗</span> AI predictions</li>
+            <li class="pricing-feature"><span class="cross">✗</span> Doctor sharing</li>
+          </ul>
+          <a href="#" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started Free</a>
+        </div>
+
+        <div class="pricing-card featured fade-in">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-plan">Pro</div>
+          <div class="pricing-price"><sup>$</sup>19<span class="period"> / mo</span></div>
+          <div class="pricing-desc">For serious health optimizers who want it all.</div>
+          <ul class="pricing-features">
+            <li class="pricing-feature"><span class="check">✓</span> Everything in Starter</li>
+            <li class="pricing-feature"><span class="check">✓</span> AI health predictions</li>
+            <li class="pricing-feature"><span class="check">✓</span> SpO2 &amp; glucose tracking</li>
+            <li class="pricing-feature"><span class="check">✓</span> Unlimited history</li>
+            <li class="pricing-feature"><span class="check">✓</span> Doctor report sharing</li>
+            <li class="pricing-feature"><span class="check">✓</span> Priority support</li>
+          </ul>
+          <a href="#" class="btn btn-primary" style="width:100%;justify-content:center;">Start Pro Trial</a>
+        </div>
+
+        <div class="pricing-card fade-in">
+          <div class="pricing-plan">Clinical</div>
+          <div class="pricing-price"><sup>$</sup>49<span class="period"> / mo</span></div>
+          <div class="pricing-desc">Built for healthcare providers and care teams.</div>
+          <ul class="pricing-features">
+            <li class="pricing-feature"><span class="check">✓</span> Everything in Pro</li>
+            <li class="pricing-feature"><span class="check">✓</span> Multi-patient dashboard</li>
+            <li class="pricing-feature"><span class="check">✓</span> EHR integration</li>
+            <li class="pricing-feature"><span class="check">✓</span> HIPAA compliance tools</li>
+            <li class="pricing-feature"><span class="check">✓</span> Clinical-grade exports</li>
+            <li class="pricing-feature"><span class="check">✓</span> Dedicated account manager</li>
+          </ul>
+          <a href="#" class="btn btn-ghost" style="width:100%;justify-content:center;">Contact Sales</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="section cta-section">
+    <div class="container fade-in">
+      <span class="section-label">Get Started Today</span>
+      <h2>Your Healthiest Life Starts with Better Data</h2>
+      <p>Join over 2 million people who've made BioTwin the centerpiece of their health journey. Download free today — no device required to start.</p>
+      <div class="cta-actions">
+        <a href="#app" class="btn btn-primary" style="font-size:1rem;padding:0.9rem 2.2rem;">Download Free App</a>
+        <a href="#features" class="btn btn-outline" style="font-size:1rem;padding:0.9rem 2.2rem;">Explore Features</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-brand" style="margin-bottom:0.25rem;display:inline-flex;">
+            <div class="nav-brand-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+              </svg>
+            </div>
+            BioTwin
+          </a>
+          <p>The world's most advanced personal health digital twin — combining wearable sensors, AI, and clinical-grade insights in your pocket.</p>
+          <div class="social-links">
+            <a class="social-link" href="#" aria-label="Twitter">𝕏</a>
+            <a class="social-link" href="#" aria-label="LinkedIn">in</a>
+            <a class="social-link" href="#" aria-label="Instagram">◎</a>
+            <a class="social-link" href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#app">iOS App</a></li>
+            <li><a href="#app">Android App</a></li>
+            <li><a href="#">BioTwin Device</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">HIPAA Compliance</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 BioTwin Technologies, Inc. All rights reserved.</span>
+        <span>Made with ❤️ for a healthier world</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+
+  <!-- Mobile menu toggle script -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.style.display === 'flex';
+      mobileMenu.style.display = isOpen ? 'none' : 'flex';
+    });
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => { mobileMenu.style.display = 'none'; });
+    });
+  </script>
+
+</body>
+</html>
