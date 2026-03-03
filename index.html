@@ -3,185 +3,148 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BioTwin Life | Intelligent Preventive Healthcare</title>
+<title>BioTwin Life | Advanced Diabetes & Preventive Care</title>
 
-<meta name="description" content="BioTwin Life delivers technology-driven preventive healthcare and intelligent diabetes management solutions.">
-<meta name="keywords" content="Diabetes Care, Preventive Healthcare, Glucose Monitoring, AI Health, BioTwin Life">
-<meta name="author" content="BioTwin Life">
+<meta name="description" content="BioTwin Life provides structured diabetes management and preventive healthcare services.">
 
-<style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f8fb;
-    color: #1a1a1a;
-}
+<script src="https://cdn.tailwindcss.com"></script>
 
-header {
-    background: linear-gradient(135deg, #0d47a1, #1976d2);
-    color: white;
-    padding: 100px 20px;
-    text-align: center;
-}
+<!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-header h1 {
-    font-size: 48px;
-    margin: 0;
-}
-
-header p {
-    font-size: 20px;
-    margin-top: 15px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 14px 30px;
-    background: #00c853;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-section {
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.section-light {
-    background: white;
-}
-
-.section-blue {
-    background: #e3f2fd;
-}
-
-.features {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.card {
-    background: white;
-    padding: 30px;
-    width: 300px;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    text-align: left;
-}
-
-.card h3 {
-    margin-top: 0;
-    color: #1976d2;
-}
-
-footer {
-    background: #0d47a1;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-
-@media(max-width:768px){
-    .features {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-</style>
 </head>
-<body>
 
-<header>
-    <h1>BioTwin Life</h1>
-    <p>Intelligent Preventive Healthcare & Technology-Assisted Diabetes Management</p>
-    <a href="https://wa.me/91XXXXXXXXXX" class="btn">Book Appointment</a>
-</header>
+<body class="bg-gray-50 text-gray-800">
 
-<section class="section-light">
-    <h2>Our Vision</h2>
-    <p>
-        At BioTwin Life, we combine medical expertise with modern technology to simplify chronic disease management. 
-        Our goal is to empower patients through data-driven insights, personalized monitoring, and preventive healthcare strategies.
+<!-- HERO -->
+<section class="bg-blue-900 text-white py-24 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold">BioTwin Life</h1>
+    <p class="mt-6 text-lg max-w-2xl mx-auto">
+        Structured Diabetes Management & Preventive Healthcare Services
     </p>
+    <a href="https://wa.me/91XXXXXXXXXX"
+       class="inline-block mt-8 bg-green-600 hover:bg-green-700 px-8 py-3 rounded font-semibold transition">
+        Schedule Consultation
+    </a>
 </section>
 
-<section class="section-blue">
-    <h2>Technology-Driven Care Model</h2>
-    <div class="features">
-
-        <div class="card">
-            <h3>Real-Time Monitoring</h3>
-            <p>
-                Continuous glucose tracking support with trend-based analysis to help patients understand patterns and make informed decisions.
-            </p>
+<!-- ANIMATED STATS -->
+<section class="py-16 bg-white text-center">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-10">
+        <div>
+            <h3 class="text-4xl font-bold text-blue-900 counter" data-target="500">0</h3>
+            <p class="mt-2 text-gray-600">Patients Managed</p>
         </div>
-
-        <div class="card">
-            <h3>Smart Health Alerts</h3>
-            <p>
-                Personalized alerts and proactive guidance to reduce risks and improve long-term diabetes control.
-            </p>
+        <div>
+            <h3 class="text-4xl font-bold text-blue-900 counter" data-target="10">0</h3>
+            <p class="mt-2 text-gray-600">Years Experience</p>
         </div>
-
-        <div class="card">
-            <h3>Digital Health Logging</h3>
-            <p>
-                Structured tracking of meals, medication, activity, and symptoms to enhance clinical consultations.
-            </p>
+        <div>
+            <h3 class="text-4xl font-bold text-blue-900 counter" data-target="95">0</h3>
+            <p class="mt-2 text-gray-600">Improved Control Rate (%)</p>
         </div>
-
     </div>
 </section>
 
-<section class="section-light">
-    <h2>Integrated Care Ecosystem</h2>
-    <p>
-        BioTwin Life follows a comprehensive care approach combining medical consultation, lifestyle modification, 
-        digital record support, and preventive risk management.
-    </p>
-</section>
+<!-- DOCTOR PROFILE -->
+<section class="py-20 px-6 bg-gray-100">
+    <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-blue-900">Meet Our Specialist</h2>
 
-<section class="section-blue">
-    <h2>Why Choose BioTwin Life?</h2>
-    <div class="features">
-
-        <div class="card">
-            <h3>Evidence-Based Approach</h3>
-            <p>Care plans guided by structured monitoring and clinical best practices.</p>
+        <div class="mt-12 bg-white p-8 rounded-lg shadow-md">
+            <img src="https://via.placeholder.com/150"
+                 class="mx-auto rounded-full w-40 h-40 object-cover">
+            <h3 class="mt-6 text-xl font-semibold text-blue-800">
+                Dr. [Doctor Name]
+            </h3>
+            <p class="text-gray-600 mt-2">
+                MD, Diabetology | Preventive Healthcare Specialist
+            </p>
+            <p class="mt-4 text-gray-600">
+                Dedicated to structured diabetes care and patient-focused preventive treatment strategies.
+            </p>
         </div>
-
-        <div class="card">
-            <h3>Preventive Focus</h3>
-            <p>Early detection strategies to minimize complications and long-term risks.</p>
-        </div>
-
-        <div class="card">
-            <h3>Future-Ready Healthcare</h3>
-            <p>Built with a vision to integrate digital health platforms and smart monitoring systems.</p>
-        </div>
-
     </div>
 </section>
 
-<section class="section-light">
-    <h2>Contact Us</h2>
-    <p>📍 Clinic Address Here</p>
-    <p>📞 +91 XXXXX XXXXX</p>
-    <p>✉ info@biotwin.life</p>
+<!-- TESTIMONIALS -->
+<section class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-blue-900">What Our Patients Say</h2>
+
+        <div class="grid md:grid-cols-2 gap-10 mt-12">
+
+            <div class="bg-gray-50 p-8 rounded-lg shadow-sm" data-aos="fade-right">
+                <p class="text-gray-600">
+                    "BioTwin Life helped me understand my glucose patterns better. 
+                    The structured monitoring approach made a real difference."
+                </p>
+                <h4 class="mt-4 font-semibold text-blue-800">— Patient A</h4>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-lg shadow-sm" data-aos="fade-left">
+                <p class="text-gray-600">
+                    "Professional, knowledgeable, and very supportive in long-term diabetes management."
+                </p>
+                <h4 class="mt-4 font-semibold text-blue-800">— Patient B</h4>
+            </div>
+
+        </div>
+    </div>
 </section>
 
-<footer>
-    <p>© 2026 BioTwin Life. All Rights Reserved.</p>
+<!-- GOOGLE MAP -->
+<section class="py-20 px-6 bg-gray-100 text-center">
+    <h2 class="text-3xl font-semibold text-blue-900">Visit Our Clinic</h2>
+
+    <div class="mt-10 max-w-4xl mx-auto">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_LINK"
+            width="100%" 
+            height="350" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-semibold text-blue-900">Contact Us</h2>
+    <div class="mt-8 text-gray-600 space-y-3">
+        <p>📍 Clinic Address Here</p>
+        <p>📞 +91 XXXXX XXXXX</p>
+        <p>✉ info@biotwin.life</p>
+    </div>
+</section>
+
+<footer class="bg-blue-900 text-white py-6 text-center text-sm">
+    © 2026 BioTwin Life. All Rights Reserved.
 </footer>
+
+<!-- JS for animations -->
+<script>
+AOS.init({ duration: 1000 });
+
+const counters = document.querySelectorAll('.counter');
+counters.forEach(counter => {
+    const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+        const increment = target / 100;
+
+        if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, 20);
+        } else {
+            counter.innerText = target;
+        }
+    };
+    updateCount();
+});
+</script>
 
 </body>
 </html>
